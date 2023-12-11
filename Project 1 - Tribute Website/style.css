@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+main{
+    background-color: rgb(175, 196, 190);
+    border: 10px solid black;
+    min-height: 100vh;
+}
+img{
+    width: 280px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 100px 0 0 130px;
+   
+}
+.image{
+    max-width: 20px;
+   margin: 0 auto;
+}
+.container{
+    display: flex;
+}
