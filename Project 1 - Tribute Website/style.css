@@ -16,9 +16,18 @@ img{
    
 }
 .image{
-    max-width: 20px;
-   margin: 0 auto;
+    /* max-width: 1000px; */
+    position: relative;
+    left: 50px;
+   
 }
-.container{
+
+.top_section{
     display: flex;
+    justify-content: space-between;
+}
+.conatiner h1{
+    align-items: center;
+    position: relative;
+    top: 100px;
 }
