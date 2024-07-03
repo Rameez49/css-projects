@@ -316,7 +316,11 @@ nav button:hover {
 
 .faq-section {
   max-width: 760px;
+  min-height: 100vh;
   margin: 0 auto;
+  background-color: #05010d;
+  padding: 50px;
+  font-family: "Netflix Font", sans-serif;
 }
 
 header {
@@ -325,15 +329,17 @@ header {
 
 header > p {
   font-size: 22px;
-  color: #AEB9C6;
+  color: #ffffff;
 }
 
-h2 {
+.header h2 {
+  text-align: center;
   font-size: 52px;
   color: #f4f4f6;
   margin-top: 40px;
   margin-bottom: 20px;
   font-weight: bold;
+  
 }
 
 details {
@@ -348,15 +354,20 @@ summary:focus-visible {
 
 h4 {
   width: 760px;
+  
 }
 
 summary {
+  
+  
   font-size: 20px;
-  color: #f4f4f6;
+  color: #ffffff;
   display: flex;
-  justify-item: space-between;
+  justify-content: center;
   align-items: center;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
+  background-color: #2D2D2D;
+  padding: 10px 0px 10px 10px;
 }
 
 summary::marker {
@@ -366,22 +377,25 @@ summary::marker {
 
 .button_span {
   /* margin-top: 4px; */
-  color: #f4f4f6;
+  color: #ffffff;
   width: 50px;
   /* height: 50px; */
 }
 
 details > p {
-  max-width: 650px;
-  color: #AEB9C6;
-  font-size: 18px;
+  max-width: 100%;
+  color: #ffffff;
+  font-size: 20px;
   line-height: 155%;
   letter-spacing: .1px;
   margin-bottom: 40px;
-  padding-left: 10px;
+  margin-top: 2px;
+  padding: 10px 10px 10px 15px;
+  
+background-color: #2D2D2D;
 }
 
 hr {
-  border: 1px solid #404E5C;
-  margin-block-end: 30px;
+  border: 1px solid #2D2D2D;
+  margin-block-end: 10px;
 }
