@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.image{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://www.codingnepalweb.com/demos/create-responsive-coffee-website-html-css/hero-bg.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.navbar{
+    /* position: absolute; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+    padding: 20px;
+    
+   
+}
+.logo {
+    color: white;
+    font-size:xx-large;
+    font-weight: bold;
+    padding-left: 30px;
+}
+.logo:hover{
+    color: #C06B3E;
+}
+.logo span{
+    color: #C06B3E;
+    font-size: larger;
+    font-weight: bold;
+}
+.navbar ul {
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    /* padding: 5px; */
+}
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px ;  
+}
+.navbar ul li :hover{
+    color: #C06B3E;
+}
+.heroSection{
+    /* position: absolute; */
+    color: white;
+    padding: 50px 0px 0px 70px;
+}
+.heroSection h1{
+    width: 40vw;
+    margin-bottom: 20px;
+    
+    font-size: 50px;
+    font-weight:bolder;
+}
+.heroSection p {
+    width: 45vw;
+    color: white;
+    margin-bottom: 20px;
+}
+.heroSection button{
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.heroSection button:hover{
+   background-color: #C06B3E;
+   color: white;
+}
